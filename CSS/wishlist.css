@@ -1,0 +1,58 @@
+/* wishlist.css */
+.wishlist-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.wishlist-item-container {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-image {
+    width: 100px;
+    height: auto;
+}
+
+.rating, .company-name, .item-name, .price {
+    margin: 5px 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-price {
+    font-weight: bold;
+    color: #e53935;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #9e9e9e;
+}
+
+.discount {
+    color: #388e3c;
+}
+
+.btn-add-bag, .btn-wishlist {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+}
+
+.btn-wishlist.in-wishlist {
+    background-color: #ffeb3b;
+}
